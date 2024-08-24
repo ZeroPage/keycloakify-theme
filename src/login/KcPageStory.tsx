@@ -16,7 +16,39 @@ const kcContextExtensionPerPage: KcContextExtensionPerPage = {};
 export const { getKcContextMock } = createGetKcContextMock({
     kcContextExtension,
     kcContextExtensionPerPage,
-    overrides: {},
+    overrides: {
+        locale: {
+            supported: [
+                /* spell-checker: disable */
+                ["de", "Deutsch"],
+                ["no", "Norsk"],
+                ["ru", "Русский"],
+                ["sv", "Svenska"],
+                ["pt-BR", "Português (Brasil)"],
+                ["lt", "한국어"],
+                ["en", "English"],
+                ["it", "Italiano"],
+                ["fr", "Français"],
+                ["zh-CN", "中文简体"],
+                ["es", "Español"],
+                ["cs", "Čeština"],
+                ["ja", "日本語"],
+                ["sk", "Slovenčina"],
+                ["pl", "Polski"],
+                ["ca", "Català"],
+                ["nl", "Nederlands"],
+                ["tr", "Türkçe"]
+                /* spell-checker: enable */
+            ].map(
+                ([languageTag, label]) =>
+                    ({
+                        languageTag,
+                        label,
+                        url: "https://cdn.jsdelivr.net/npm/keycloakify@latest/src/i18n/ko.json"
+                    }) as const
+            ),
+        }
+    },
     overridesPerPage: {}
 });
 
