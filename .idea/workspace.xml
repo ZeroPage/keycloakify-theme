@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be37b536-fb77-4609-8d0b-a916cdfddec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/login/assets/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/KcPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/KcPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/assets/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/pages/Login.tsx" beforeDir="false" />
-    </list>
+    <list default="true" id="be37b536-fb77-4609-8d0b-a916cdfddec1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,19 +28,20 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "tailwind",
-    "last_opened_file_path": "/Users/kdw/keycloakify-starter/src/login",
+    "last_opened_file_path": "/Users/kdw/keycloakify-theme/src/account",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/Users/kdw/keycloakify-starter/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/kdw/keycloakify-theme/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/account" />
       <recent name="$PROJECT_DIR$/src/login" />
       <recent name="$PROJECT_DIR$/src/login/assets/img" />
     </key>
@@ -75,6 +69,7 @@
       <workItem from="1724139123607" duration="8794000" />
       <workItem from="1724221331236" duration="13245000" />
       <workItem from="1724404864658" duration="18187000" />
+      <workItem from="1724477152947" duration="11682000" />
     </task>
     <servers />
   </component>
