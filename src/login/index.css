@@ -185,3 +185,15 @@ div[data-kc-msg="emailInstruction"] {
     background-size: cover;
     background-color: #000000;
 }
+
+/* 로고 위치 조정 */
+@media (max-width: 640px) {
+    .absolute.top-0.left-0.p-4 img {
+        margin-left: 0; /* 모바일에서 로고를 왼쪽으로 붙임 */
+    }
+
+    .text-center.text-white.mb-16 {
+        margin-bottom: 1rem; /* 모바일에서 ZeroPage 아래의 공백 제거 */
+    }
+}
+
